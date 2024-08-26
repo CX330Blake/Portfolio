@@ -28,10 +28,12 @@ function Home() {
                             </h1>
 
                             <h1 className="heading-name">
-                                I'M
+                                I'm
+                                <strong className="main-name"> CX330</strong>,
+                                or
                                 <strong className="main-name">
                                     {" "}
-                                    CX330, or Blake Chen
+                                    Blake Chen
                                 </strong>
                             </h1>
 

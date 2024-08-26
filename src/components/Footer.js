@@ -26,7 +26,7 @@ function Footer() {
                                 textDecoration: "none",
                             }}
                         >
-                            Portfolio template
+                            The portfolio template
                         </a>
                     </h3>
                 </Col>
