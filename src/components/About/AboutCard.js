@@ -1,44 +1,50 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+// import { ImPointRight } from "react-icons/im";
+import { PiAsterisk } from "react-icons/pi";
 
 function AboutCard() {
-  return (
-    <Card className="quote-card-view">
-      <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
+    return (
+        <Card className="quote-card-view">
+            <Card.Body>
+                <blockquote className="blockquote mb-0">
+                    <p style={{ textAlign: "justify" }}>
+                        Hello world, I'm <span className="purple">CX330 </span>,
+                        or <span className="purple">Blake Chen </span>
+                        from <span className="purple"> Taiwan</span>, a student
+                        at <span className="purple">NCKU CSIE. </span>
+                        I'm now learning to become an{" "}
+                        <span className="purple">all-round hacker</span> just
+                        out of{" "}
+                        <span className="purple">curiosity and fun. </span>
+                        Apart from <span className="purple">hacking</span>, I
+                        also love:
+                    </p>
+                    <ul>
+                        <li className="about-activity">
+                            <PiAsterisk /> &nbsp;&nbsp;Drinking coffee
+                        </li>
+                        <li className="about-activity">
+                            <PiAsterisk /> &nbsp;&nbsp;Photography
+                        </li>
+                        <li className="about-activity">
+                            <PiAsterisk /> &nbsp;&nbsp;The ocean
+                        </li>
+                        <li className="about-activity">
+                            <PiAsterisk /> &nbsp;&nbsp;My fantastic life
+                        </li>
+                    </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
-        </blockquote>
-      </Card.Body>
-    </Card>
-  );
+                    <p style={{ color: "rgb(155 126 172)" }}>
+                        "Being the one is just like being in love. No one needs
+                        to tell you you are in love, you just know it, through
+                        and through."{" "}
+                    </p>
+                    <footer className="blockquote-footer">The Matrix</footer>
+                </blockquote>
+            </Card.Body>
+        </Card>
+    );
 }
 
 export default AboutCard;

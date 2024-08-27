@@ -33,7 +33,8 @@ function Home2() {
                                 </b>
                             </i>
                             <br />
-                            <br />I am striving to become an all-round hacker,
+                            <br />I am striving to become an{" "}
+                            <b className="purple">all-round hacker</b>,
                             specializing in &nbsp;
                             <i>
                                 <b className="purple">
