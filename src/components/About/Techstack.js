@@ -1,15 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { FaC } from "react-icons/fa6";
-import {
-    DiJavascript1,
-    DiReact,
-    DiNodejs,
-    DiPython,
-    DiGit,
-    DiJava,
-} from "react-icons/di";
-import { SiNextdotjs, SiHexo, SiBurpsuite } from "react-icons/si";
+import { FaC, FaHtml5, FaNodeJs } from "react-icons/fa6";
+import { IoLogoCss3, IoLogoJavascript } from "react-icons/io5";
+import { DiReact, DiPython, DiGit, DiJava } from "react-icons/di";
+import { SiNextdotjs, SiHexo } from "react-icons/si";
 
 function Techstack() {
     return (
@@ -21,13 +15,19 @@ function Techstack() {
                 <DiPython />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiJavascript1 />
+                <IoLogoJavascript />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <DiJava />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiNodejs />
+                <FaHtml5 />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <IoLogoCss3 />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <FaNodeJs />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <DiReact />
@@ -40,9 +40,6 @@ function Techstack() {
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <SiHexo />
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-                <SiBurpsuite />
             </Col>
         </Row>
     );
