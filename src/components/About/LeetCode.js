@@ -1,5 +1,5 @@
 import React from "react";
-import { Row } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import Markdown from "react-markdown";
 
 function LeetCode() {
@@ -14,11 +14,14 @@ function LeetCode() {
                 height={"500px"}
                 title="LeetCode Card"
             ></iframe> */}
-            <Markdown>
-                {
-                    "![LeetCode Stats](https://leetcard.jacoblin.cool/CX330Blake?theme=unicorn&font=Fira%20Code&ext=activity)"
-                }
-            </Markdown>
+            <Col xs={12} md={10} lg={8}>
+                {/* 使用 Col 控制寬度 */}
+                <Markdown>
+                    {
+                        "![LeetCode Stats](https://leetcard.jacoblin.cool/CX330Blake?theme=unicorn&font=Fira%20Code&ext=activity)"
+                    }
+                </Markdown>
+            </Col>
         </Row>
     );
 }
