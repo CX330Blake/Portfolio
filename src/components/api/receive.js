@@ -1,4 +1,4 @@
-export default function handler(req, res) {
+export default function CookieReceiver(req, res) {
     if (req.method === "GET") {
         const cookie = req.query.cookie; // 从查询参数获取 cookie
         if (cookie) {
