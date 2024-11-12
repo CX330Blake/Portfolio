@@ -7,6 +7,8 @@ import {
     // AiOutlineFacebook,
     AiFillFacebook,
 } from "react-icons/ai";
+
+import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -67,7 +69,7 @@ function Footer() {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://www.instagram.com/cx330blake"
+                                href="https://x.com/CX330Blake"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -75,7 +77,7 @@ function Footer() {
                                     alert("My instagram is now deactivated")
                                 }
                             >
-                                <AiFillInstagram />
+                                <BsTwitterX />
                             </a>
                         </li>
                     </ul>
