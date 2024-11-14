@@ -6,9 +6,10 @@ import Tilt from "react-parallax-tilt";
 import {
     AiFillGithub,
     // AiOutlineTwitter,
-    AiFillInstagram,
     // AiFillFacebook,
 } from "react-icons/ai";
+import { BsTwitterX } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -95,6 +96,16 @@ function Home2() {
                         <ul className="home-about-social-links">
                             <li className="social-icons">
                                 <a
+                                    href="https://x.com/CX330Blake"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="icon-colour  home-social-icons"
+                                >
+                                    <BsTwitterX />
+                                </a>
+                            </li>
+                            <li className="social-icons">
+                                <a
                                     href="https://github.com/cx330blake"
                                     target="_blank"
                                     rel="noreferrer"
@@ -125,17 +136,12 @@ function Home2() {
                             </li>
                             <li className="social-icons">
                                 <a
-                                    href="https://www.instagram.com/cx330blake"
+                                    href="mailto:cx330tw@gmail.com"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour home-social-icons"
-                                    onClick={() => {
-                                        alert(
-                                            "My instagram is now deactivated"
-                                        );
-                                    }}
                                 >
-                                    <AiFillInstagram />
+                                    <MdEmail />
                                 </a>
                             </li>
                         </ul>

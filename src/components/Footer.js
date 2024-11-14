@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
     AiFillGithub,
     // AiOutlineTwitter,
-    AiFillInstagram,
     // AiOutlineFacebook,
     AiFillFacebook,
 } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -39,6 +39,16 @@ function Footer() {
                     <ul className="footer-icons">
                         <li className="social-icons">
                             <a
+                                href="https://x.com/CX330Blake"
+                                style={{ color: "white" }}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <BsTwitterX />
+                            </a>
+                        </li>
+                        <li className="social-icons">
+                            <a
                                 href="https://github.com/cx330blake"
                                 style={{ color: "white" }}
                                 target="_blank"
@@ -69,15 +79,12 @@ function Footer() {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://x.com/CX330Blake"
+                                href="mailto:cx330tw@gmail.com"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                onClick={() =>
-                                    alert("My instagram is now deactivated")
-                                }
                             >
-                                <BsTwitterX />
+                                <MdEmail />
                             </a>
                         </li>
                     </ul>
