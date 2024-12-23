@@ -7,6 +7,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import LeetCode from "./LeetCode";
+import TryHackMe from "./TryHackMe";
 
 function About() {
     return (
@@ -53,6 +54,7 @@ function About() {
                 <Toolstack />
 
                 <Github />
+                <TryHackMe />
                 <LeetCode />
             </Container>
         </Container>

@@ -24,7 +24,7 @@ function Home() {
                                     role="img"
                                     aria-labelledby="wave"
                                 >
-                                    ⭐
+                                    🧛
                                 </span>
                             </h1>
 
